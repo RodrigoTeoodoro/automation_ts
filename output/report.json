@@ -1,0 +1,290 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-10-06T13:25:31.500Z",
+    "end": "2023-10-06T13:27:41.192Z",
+    "duration": 129692,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1c39a90f-5110-454c-a994-1ed799885b7f",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "97f0f763-839b-4d01-b6f9-059cb0eaab5c",
+          "title": "Login",
+          "fullFile": "C:\\Users\\RodrigoTeodoro\\Documents\\Automation\\features\\basic.feature",
+          "file": "\\features\\basic.feature",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Login\"",
+              "fullTitle": "Login \"before all\" hook: codeceptjs.beforeSuite in \"Login\"",
+              "timedOut": false,
+              "duration": 2,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "a729451a-e961-4a53-a587-041a960c75fd",
+              "parentUUID": "97f0f763-839b-4d01-b6f9-059cb0eaab5c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Login\"",
+              "fullTitle": "Login \"before each\" hook: codeceptjs.before in \"Login\"",
+              "timedOut": false,
+              "duration": 9442,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "31fc3ddd-9dc4-4bab-904d-e7cfda7879d1",
+              "parentUUID": "97f0f763-839b-4d01-b6f9-059cb0eaab5c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Login\"",
+              "fullTitle": "Login \"after all\" hook: codeceptjs.afterSuite in \"Login\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "78a9f0ff-8f5d-40b2-8ef8-e13540b8dd2b",
+              "parentUUID": "97f0f763-839b-4d01-b6f9-059cb0eaab5c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: codeceptjs.after in \"Login\"",
+              "fullTitle": "Login \"after each\" hook: codeceptjs.after in \"Login\"",
+              "timedOut": false,
+              "duration": 442,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "491add3f-4779-401b-8b4e-367ece8600c9",
+              "parentUUID": "97f0f763-839b-4d01-b6f9-059cb0eaab5c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Login with success",
+              "fullTitle": "Login Login with success",
+              "timedOut": false,
+              "duration": 37965,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "runSteps(child.scenario.steps)",
+              "err": {},
+              "uuid": "29962f9e-f93c-4deb-a4c8-ba4f56fb5916",
+              "parentUUID": "97f0f763-839b-4d01-b6f9-059cb0eaab5c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "29962f9e-f93c-4deb-a4c8-ba4f56fb5916"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 37965,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "b28482bd-e9a4-40cf-aff3-e396c3b316c2",
+          "title": "Scale_Tickets_Steps",
+          "fullFile": "C:\\Users\\RodrigoTeodoro\\Documents\\Automation\\steps\\login_test.js",
+          "file": "\\steps\\login_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Scale_Tickets_Steps\"",
+              "fullTitle": "Scale_Tickets_Steps \"before all\" hook: codeceptjs.beforeSuite in \"Scale_Tickets_Steps\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "a0154317-7ade-4010-8372-5b565d85b878",
+              "parentUUID": "b28482bd-e9a4-40cf-aff3-e396c3b316c2",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Scale_Tickets_Steps\"",
+              "fullTitle": "Scale_Tickets_Steps \"before each\" hook: codeceptjs.before in \"Scale_Tickets_Steps\"",
+              "timedOut": false,
+              "duration": 8345,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "5bd5d3c2-09cb-4ca9-8c58-e6e5f76b5de6",
+              "parentUUID": "b28482bd-e9a4-40cf-aff3-e396c3b316c2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Scale_Tickets_Steps\"",
+              "fullTitle": "Scale_Tickets_Steps \"after all\" hook: codeceptjs.afterSuite in \"Scale_Tickets_Steps\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "1ca9d21b-a0bd-4ef9-ab6f-23750b431a9c",
+              "parentUUID": "b28482bd-e9a4-40cf-aff3-e396c3b316c2",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Scale_Tickets_Steps\"",
+              "fullTitle": "Scale_Tickets_Steps \"after each\" hook: finalize codeceptjs in \"Scale_Tickets_Steps\"",
+              "timedOut": false,
+              "duration": 450,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "3dce9e94-7f61-42ac-9dfe-ca61ff08631b",
+              "parentUUID": "b28482bd-e9a4-40cf-aff3-e396c3b316c2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Scale_Tickets @Scale_Tickets",
+              "fullTitle": "Scale_Tickets_Steps: Scale_Tickets @Scale_Tickets",
+              "timedOut": false,
+              "duration": 73034,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//var randomtag = logs.log\n    I.wait(10)\n    login_page.doLogin('rteodoro@elimbsdevel', 'Rod@dmsi.01')\n    home_page.checkLogButton()\n    home_page.logManagementOptions()\n    log_page.scaleTicketsGatewood()\n    //log_page.scaleTicketsPageThree()\n    log_page.scaleTicketsPageFour()",
+              "err": {},
+              "uuid": "c4e9ecdb-0e98-493c-a248-f3db216bb309",
+              "parentUUID": "b28482bd-e9a4-40cf-aff3-e396c3b316c2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c4e9ecdb-0e98-493c-a248-f3db216bb309"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 73034,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "./output",
+        "reportFilename": "report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
